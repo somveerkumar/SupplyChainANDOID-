@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/r3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Toolinfo">
+
+
+    <EditText
+        android:id="@+id/record1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="438dp"
+        android:hint="RecordID"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="402dp"
+        android:hint="Description"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/parent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="366dp"
+        android:hint="ParentID"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/quantity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="328dp"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="176dp"
+        android:hint="RollNo."
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="215dp"
+        android:hint="Date of Return Committed"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="139dp"
+        android:hint="Department"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/HOD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="64dp"
+        android:autoSizeMaxTextSize="10sp"
+        android:hint="YES/NO"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="102dp"
+        android:hint="Detail"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="textLongMessage"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/create1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="8dp"
+        app:fontFamily="@font/roboto_mono_thin"
+        android:background="@drawable/btn_shape_capsule2"
+        android:text="create1"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/type1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="47dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="290dp"
+        android:hint="Type"
+        android:inputType="text"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="253dp"
+        android:hint="Name of student"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

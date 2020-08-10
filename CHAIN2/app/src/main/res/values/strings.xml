@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CHAIN</string>
+
+    <string name="LOGIN">LOGIN</string>
+    <string name="login">LOGIN</string>
+    <string name="INFORMATION">INFORMATION</string>
+    <string name="TOOLISSUE">TOOL ISSUE (STAFF)</string>
+    <string name="TOOLSTUDENT">TOOL ISSUE(STUDENT)</string>
+    <string name="TOOLINFO">TOOL INFO</string>
+    <string name="CREATE1">CREATE RECORD</string>
+    <string name="QR">SCAN QR</string>
+    <string name="WASTAGE">WASTAGE</string>
+    <string name="COOLENT">COOLANT</string>
+    <string name="SHOP">SHOP</string>
+    <string name="STORE">STORE</string>
+    <string name="EXPAND">EXPAND</string>
+    <string name="TOOLBREAKAGE">TOOL BREAKAGE</string>
+    <string name="MATERIALSLIP">MATERIAL SLIP</string>
+    <string name="INSPECTION">INSPECTION</string>
+    <string name="RAWMATERIAL">RAW MATERIAL</string>
+    <string name="TOOL">TOOL</string>
+    <string name="SAFETY">SAFETY GEAR</string>
+    <string name="SCANQR">SCANqr</string>
+    <string name="PROJECTS">PROJECTS</string>
+</resources>

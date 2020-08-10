@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/r3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Material"
+    android:background="#fbe9e7">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="MATERIAL "
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/rawmaterial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginRight="51dp"
+        android:background="@drawable/btn_shape_capsule2"
+        android:text="rawmaterial"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+
+    <Button
+        android:id="@+id/toolused"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rawmaterial"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginRight="49dp"
+        android:background="@drawable/btn_shape_capsule2"
+        android:text="tool"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/safety"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolused"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/btn_shape_capsule2"
+        android:text="safety"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/Wastage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/safety"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="362dp"
+        android:layout_marginRight="47dp"
+        android:background="@drawable/btn_shape_capsule2"
+        android:text="Wastage"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/Coolant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Wastage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="47dp"
+        android:background="@drawable/btn_shape_capsule2"
+        android:text="coolant"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+
+</RelativeLayout>

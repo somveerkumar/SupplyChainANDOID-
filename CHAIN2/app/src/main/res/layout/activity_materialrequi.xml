@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/r3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Materialrequi">
+
+    <EditText
+        android:id="@+id/recordtoolbreakage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="438dp"
+        android:hint="RecordID"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/desctool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="396dp"
+        android:hint="Tool Description"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/parent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="354dp"
+        android:hint="ParentID"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/quantitytool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="312dp"
+        android:hint="Quantity"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/purpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="270dp"
+        android:hint="Purpose"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="229dp"
+        android:hint="Shop"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="191dp"
+        android:hint="Year"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Semester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="148dp"
+        android:autoSizeMaxTextSize="10sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:hint="Semester"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="112dp"
+        android:hint="Detail"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="textLongMessage"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/create1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="62dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/btn_shape_capsule2"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="create1" />
+
+
+</RelativeLayout>
+

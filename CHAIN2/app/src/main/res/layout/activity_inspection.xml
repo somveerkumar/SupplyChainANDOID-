@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/r3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inspection">
+
+    <EditText
+        android:id="@+id/recordtoolbreakage"
+        android:layout_width="match_parent"
+        android:layout_height="36sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="410dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:hint="RecordID"
+        android:inputType="number"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/desctool"
+        android:layout_width="match_parent"
+        android:layout_height="36sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="364dp"
+        android:hint="Tool Description"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textSize="15sp"
+        />
+
+
+    <EditText
+        android:id="@+id/parent1"
+        android:layout_width="match_parent"
+        android:layout_height="36sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="286dp"
+        android:hint="ParentID"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/quantitytool"
+        android:layout_width="match_parent"
+        android:layout_height="36sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="325dp"
+        android:hint="Quantity"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/Purchase"
+        android:layout_width="match_parent"
+        android:layout_height="36sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="245dp"
+        android:hint="Purchase Order"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/Supplier"
+        android:layout_width="match_parent"
+        android:layout_height="36sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="201dp"
+        android:hint="Supplier"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/certification"
+        android:layout_width="match_parent"
+        android:layout_height="36sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="158dp"
+        android:hint="certification"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/keyresult"
+        android:layout_width="match_parent"
+        android:layout_height="36sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="73dp"
+        android:autoSizeMaxTextSize="10sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:hint="Results"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/Detail"
+        android:layout_width="match_parent"
+        android:layout_height="36sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="116dp"
+        android:hint="Detail"
+        android:inputType="textLongMessage"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/create1"
+        android:layout_width="match_parent"
+        android:layout_height="36sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:text="create1"
+        android:textSize="15sp"
+        android:background="@drawable/btn_shape_capsule2"/>
+
+
+</RelativeLayout>
+
+
+
+
